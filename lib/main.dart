@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 void main() async {
   WidgetsFlutterBinding
-      .ensureInitialized(); //Ensure plugin services are initialized
-  final cameras = await availableCameras(); //Get list of available cameras
+      .ensureInitialized(); 
+  final cameras = await availableCameras(); 
   runApp(MyApp(cameras: cameras));
 }
 
